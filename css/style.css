@@ -1,0 +1,1137 @@
+html{
+    box-sizing: border-box;
+} 
+*, *::after, *::before{
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+html,
+body{
+    height: 100%;
+    background: #161D27;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+
+}
+.wraper{
+    background: url('/Users/andrejmasak/Desktop/attorneyster/images/background.jpg');
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;  
+    padding: 20px 20px 0px 20px;
+    max-height: 1440px;
+}
+.header{
+    padding: 20px 10px 20px 10px;
+}
+.header-top{
+    display: flex;
+    padding-bottom: 30px;
+    justify-content: space-between;
+}
+.header-btn{
+    color: #FFF;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    font-family: Outfit;
+    font-size: 22px;
+    font-weight: 400;
+    border: 1px solid rgba(255, 255, 255, 0.10);
+    background: rgba(255, 255, 255, 0.10);
+    padding: 24px 71px 25px 71px;
+}
+.header-bottom{
+    border: 1px solid #4E555F;
+    border-right: none;
+    border-left: none;
+    padding: 0 20px;
+    height: 92px;
+    align-items: center;
+    display: flex;
+    justify-content: center
+
+}
+.menu-1{
+    display: flex;
+    align-items: center;
+    gap: 230px;
+}
+.menu-list{
+    display: flex;
+    gap: 40px;
+    color: #fff;
+    
+}
+.menu-list-link{
+    font-size: 15px;
+    font-family: Outfit;
+}
+.menu-contacts{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+.phone{
+    display: flex;
+    align-items: center;
+}
+.email{
+    display: flex;
+    align-items: center;
+}
+.phone-text{
+    display: flex;
+    width: 120px;
+    padding: 0px 0.188px 3.5px 12.016px;
+    flex-direction: column;
+    gap: 1px;
+    font-family: Outfit;
+    font-weight: 400;
+    color: #fff;
+}
+.call-us{
+    color: #D1B06B;
+}
+.wgroup{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+.wg-title{
+    color: #FFF;
+    font-family: Cormorant Garamond;
+    font-size: 45px;
+    font-weight: 400;
+    width: 78%;
+}
+.wg-text{
+    color: #D1B06B;
+    font-family: Outfit;
+    font-size: 22px;
+    font-weight: 400;
+    padding-bottom: 50px;
+}
+.wg-link{
+    color: #1F2732;
+    text-align: center;
+    font-family: Outfit;
+    font-size: 22px;
+    font-weight: 400;
+    border: 1px solid #D1B06B;
+    background: #D1B06B;
+    padding: 24px 71px 25px 71px;
+}
+.welcome{
+    background: #161D27;
+    padding: 100px 20px 20px 20px;
+}
+.welcome-container{
+    display: inline-flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 30px;
+}
+.welcome-images{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+}
+.PP{
+    display: inline-flex;
+    padding: 69px 250px 0px 0.25px;
+    align-items: center;
+    gap: 20px;
+}
+.pp-text{
+    color: #FFF;
+    font-family: Cormorant Garamond;
+    font-size: 40px;
+    font-weight: 400;
+}
+.welcome-to{
+    color: #FFF;
+    font-family: Cormorant Garamond;
+    font-size: 45px;
+    font-weight: 400;
+}
+.welcome-lawyer{
+    color: #FFF;
+    font-family: Cormorant Garamond;
+    font-size: 45px;
+    font-weight: 400;
+    padding-bottom: 11px;
+}
+.w-text{
+    color: #D7D7D7;
+    font-family: Outfit;
+    font-size: 20px;
+    font-weight: 400;
+    padding-top: 43px;
+}
+.welcome-mini-img{
+    display: inline-flex;
+    padding: 45px 0px 0px 0px;
+    align-items: flex-start;
+    gap: 30px;
+}
+.expt{
+    color: #FFF;
+    font-family: Outfit;
+    font-size: 30px;
+    border-radius: 5px;
+    background: #161D27;
+    padding: 15px;
+}
+.exp-text{
+    color: #1F2732;
+    font-family: Outfit;
+    font-size: 22px;
+}
+.Explore{
+    background: #161D27;
+    display: flex;
+    padding: 0px 20px 70px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.explore-content{
+    display: block;
+    padding: 210px 12px 60px 0px;
+    gap: 16px;
+}
+.explore-content-text{
+    color: #FFF;
+    font-family: Cormorant Garamond;
+    font-size: 45px;
+    font-weight: 400;
+}
+.explore-p{
+    color: #D7D7D7;
+    font-family: Outfit;
+    font-size: 20px;
+    font-weight: 400;
+    display: block;
+
+}
+.info-list{
+    gap: 20px 20px;
+    grid-template-columns: repeat(3,1fr);
+    display: grid;
+}
+.card{
+    padding: 35px;
+    background: #1F2732;
+    display: inline-flex;
+    flex-direction: column;
+}
+.card-content{
+    padding: 0 23px 35px;
+    border: 1px solid #4E555f;
+    border-top: 0 ;
+    border-left: 0 ;
+    border-right: 0;
+    margin-bottom: 35px;
+}
+.card-title{
+    color: #FFF;
+    font-family: Cormorant Garamond;
+    font-size: 35px;
+    font-weight: 400;
+}
+.card-title-1{
+    color: #FFF;
+    font-family: Cormorant Garamond;
+    font-size: 33px;
+    padding-bottom: 3px;
+    font-weight: 400;
+}
+.card-text{
+    color: #D7D7D7;
+    font-family: Outfit;
+    font-size: 20px;
+    font-weight: 400;    
+}
+.card-text-1{
+    color: #D7D7D7;
+    font-family: Outfit;
+    font-size: 19px;
+    font-weight: 400;
+    padding-bottom: 3px;
+}
+.card-bottom{
+    display: flex;
+    padding: 19.703px 0px 0.297px 0px;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 30px;
+}
+.card-link{
+    color: #FFF;
+    font-family: Outfit;
+    font-size: 20px;
+    font-weight: 400;
+    background: #161D27;
+    padding: 12px 42px;
+}
+.card-img-2{
+    padding: 7px;
+}
+.fighting{
+    background: #fff;
+    padding-bottom: 60px;
+    border: 1px solid #D1B06B;
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+    padding: 0px 60px;
+}
+.fight-title{
+    text-align: center;
+    padding-top: 85px;
+    padding-bottom: 60px;
+}
+.fight-h1{
+    color: #161D27;
+    font-family: Cormorant Garamond;
+    font-size: 45px;
+    font-weight: 400;
+}
+.fight-logo{
+    padding-bottom: 20px;
+}
+.fight-text{
+    color: #909090;
+    font-family: Outfit;
+    font-size: 20px;
+    font-weight: 400;
+}
+.fight-content{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 30px;
+}
+.fcontent-images{
+    display: inline-flex;
+    gap: 50px;
+    padding-bottom: 60px;
+}
+.Partners{
+    padding: 20px 20px 80px;
+    background: #FFF;
+}
+.partners-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.part-title-text{
+    color: #161D27;
+    font-family: Cormorant Garamond;
+    font-size: 50px;
+    font-weight: 400;
+}
+.brands{
+    padding-top: 80px;
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+  .opions{
+    padding-top: 55px;
+    background: #161D27;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 60px;
+  }
+  .opion-title{
+    display: flex;
+    padding: 0px 250px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 11px;
+  }
+  .op-title-text{
+    color: #FFF;
+    text-align: center;
+    font-family: Cormorant Garamond;
+    font-size: 45px;
+    font-weight: 400;
+  }
+  .op-list{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+  }
+  .clients{
+    display: flex;
+    padding: 39.703px 9.5px 65px 10px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20.297px;
+  }
+  .opion-inner{
+    height: 356px;
+    padding: 40px;
+    border-radius: 1px 1px 1px 40px;
+    background: #2E3947;
+  }
+  .op-inner-text{
+    padding-top: 20px;
+    color: #D7D7D7;
+    font-family: Outfit;
+    font-size: 20px;
+    font-weight: 400;  
+  }
+  .biography{
+    display: flex;
+    align-items: center;
+  }
+  .bio-text{
+    padding-left: 11px;
+    color: #FFF;
+  }
+  .bio-title{
+    font-family: Cormorant Garamond;
+    font-size: 30px;
+    font-weight: 400;
+  }
+  .bio-copy{
+    font-family: Outfit;
+    font-weight: 400;
+  }
+  .OE-title{
+    text-align: center;
+  }
+  .OurExp{
+    display: flex;
+    padding: 50px 20px 45px 20px;
+    flex-direction: column;
+    gap: 70px;
+    background: #fff;
+  }
+
+  .OE-title-text{
+    color: #161D27;
+    font-family: Cormorant Garamond;
+    font-size: 45px;
+    font-weight: 400;
+  }
+  .OE-content{
+    display: flex;
+    padding-right: 0.016px;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 30px;
+  }
+  .lawyers{
+    display: flex;
+    padding-bottom: 10px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    flex-shrink: 0;
+  }
+  .law-img-container{
+    position: relative;
+    display: inline-block;
+  }
+  .law-title{
+    margin: 0 auto;
+    text-align: center;
+  }
+  .law-title-text{
+    color: #161D27;
+    font-family: Cormorant Garamond;
+    font-size: 30px;
+    font-weight: 400;
+  }
+  .law-title-copy{
+    color: #D1B06B;
+    font-family: Outfit;
+    font-size: 20px;
+    font-weight: 400;
+  }
+  .OurPro{
+    background: #161D27;
+    padding-top: 75px;
+    padding-bottom: 60px;
+  }
+  .opro-content{
+    padding: 0 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+  }
+  .opro-left-content{
+    display: flex;
+    padding: 10px 0px 9.875px 0px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40.125px;
+  }
+  .opro-title{
+    color: #FFF;
+    font-family: Cormorant Garamond;
+    font-size: 45px;
+    font-weight: 400;
+  }
+  .opro-left-copy{
+    color: #D7D7D7;
+    font-family: Outfit;
+    font-size: 20px;
+    font-weight: 400;
+  }
+  .opro-link{
+    border: 1px solid #D1B06B;
+    background: #D1B06B;
+    padding: 25px 71px;
+  }
+  .opro-link-text{
+    color: #1F2732;
+    text-align: center;
+    font-family: Outfit;
+    font-size: 22px;
+    font-weight: 400;
+  }
+  .opro-right-content{
+    background: #FFF;
+    padding: 35px;
+  }
+  .opro-right-inner{
+    border: 15px solid #D7D7D7;
+    padding: 20px 45px;
+  }
+  .opro-right-title{
+    color: #1F2732;
+    font-family: Cormorant Garamond;
+    font-size: 31px;
+    font-weight: 700;
+  }
+  .opro-right-text{
+    color: #909090;
+    font-family: Outfit;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    padding-bottom: 15px;
+  }
+  .opro-callus{
+    color: #1F2732;
+    font-family: Outfit;
+    font-size: 18px;
+    font-weight: 400;
+  }
+  .opro-phone{
+    color: #1F2732;
+    font-family: Outfit;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .contacts{
+    padding: 75px 20px ;
+    background: url('/Users/andrejmasak/Desktop/attorneyster/images/background-3.jpg');
+}
+.contacts__title{
+    margin-bottom: 20px;
+}
+.contacts-container{
+    padding: 0 50px;
+    background: #1F2732;
+}
+.form{
+    padding: 45px 0;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px 35px;
+    margin: 0 auto;
+}
+.form__input{
+    color: #FFF;
+    background: #1F2732;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding: 10px 20px;
+    font-family: Outfit;
+    margin-bottom: 50px;
+    font-family: Outfit;
+    font-size: 25px;
+    font-weight: 400;
+}
+.form__textarea{
+    color: #FFF;
+    background: #1F2732;
+    width: 100%;
+    resize: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding: 0px 20px;
+    font-family: Outfit;
+    font-size: 25px;
+    font-weight: 400;
+}
+.form__btn{
+    display: flex;
+    justify-content: center;
+    color: #3B434E;
+    font-family: Outfit;
+    font-size: 25px;
+    font-weight: 700;
+    padding: 32px 44px;
+    border: none;
+}
+.blogs{
+    background: #161D27;
+    padding: 35px 20px;
+}
+.blogs-top-container{
+    display: flex;
+    padding-bottom: 75px;
+    flex-direction: column;
+    gap: 70px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 1px solid #4E555F;
+}
+.blogs-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 9px;
+    color: #FFF;
+    font-family: Cormorant Garamond;
+    font-size: 45px;
+    font-weight: 400;
+}
+.blogs-top-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.blog-top-texts-title{
+    color: #D1B06B;
+    font-family: Outfit;
+    font-size: 19px;
+    font-weight: 400;
+    display: inline-flex;
+    gap: 10px;
+    padding-bottom: 20px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 1px solid #4E555F;
+}
+.blog-tops-title{
+    color: #D1B06B;
+    font-family: Outfit;
+    font-size: 19px;
+    font-weight: 400;
+    display: inline-flex;
+    gap: 10px;
+    padding-bottom: 20px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 1px solid #4E555F;
+}
+.blog-top-texts-center{
+    display: inline-flex;
+    padding: 10.719px 9px 0px 0px;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    gap: 21px;
+    
+}
+.blog-top-texts-center-title{
+    color: #FFF;
+    font-family: Cormorant Garamond;
+    font-size: 45px;
+    font-weight: 400;
+}
+.blog-top-texts-center-text{
+    color: #D7D7D7;
+    font-family: Outfit;
+    font-size: 20px;
+    font-weight: 400;
+}
+.blog-top-texts-bottom{
+    padding-top: 20px;
+}
+.blog-top-link{
+    color: #D1B06B;
+    font-family: Outfit;
+    font-size: 22px;
+    font-weight: 400;
+}
+.blog-top-link:hover{
+    text-decoration: underline;
+}
+.last-img{
+    width: 100%;
+}
+.footer{
+    padding: 110px 20px 35px 20px;
+    background: #161D27;
+}
+.footer-logo{
+    width: 100%;
+    padding-bottom: 55px;
+}
+.footer-menu{
+    color: #FFF;
+    font-family: "Cormorant Garamond";
+    font-size: 30px;
+    font-weight: 400;
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+}
+.footer-menu-list{
+    color: #D7D7D7;
+    font-family: Outfit;
+    font-size: 20px;
+    font-weight: 400;
+    display: flex;
+    padding-top: 35px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+}
+.topmenu{
+    color: #fff;
+    font-family: Cormorant Garamond;
+    font-size: 30px;
+    font-weight: 400;
+    display: flex;
+    justify-content: space-between;
+    color: #FFF;
+}
+.submenu{
+    border-radius: 6px;
+    background: #161D27;
+    color: #fff;
+    font-family: Outfit;
+    font-size: 20px;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    position: absolute;
+    transform-origin: 0 0;
+    transform: rotateX(-90deg);
+    transition: 0.5s linear;
+    visibility: hidden;
+    opacity: 0;
+    padding: 10px;
+}
+.submenu li{
+    position: relative;
+}
+.topmenu li:hover > .submenu{
+    opacity: 1;
+    visibility: visible;
+    transform: rotateX(0deg);
+}
+.submenu-contact{
+    padding-top: 35px;
+    color: #D7D7D7;
+    font-family: Outfit;
+    font-size: 20px;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 25px;
+}
+@media(max-width:1135px ){
+    .card-title-1 {
+        font-size: 28px;
+    }
+    .card-title {
+        font-size: 28px;
+    }
+    .card-link {
+        padding: 10px 20px;
+    }
+    .PP{
+        padding: 69px 0px 0px 0.25px;
+    }
+    .w-text {
+        font-size: 19px;
+    }
+}
+@media(max-width:1090px ){
+    .fcontent-images {
+        flex-direction: column;
+    }
+    .brands {
+        gap: 40px;
+        flex-wrap: wrap;
+    }
+    .OE-content {
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    .welcome-lawyer {
+        font-size: 42px;
+    }
+    .w-text {
+        font-size: 17px;
+        width: 90%;
+    }
+    .wg-title {
+        font-size: 32px;
+    }
+    .wg-text {
+        font-size: 17px;
+    }
+    .welcome-mini-img {
+        gap: 23px;
+    }
+    .footer-menu {
+        font-size: 26px;
+        gap: 80px;
+    }
+    .blog-top-texts-center-title {
+        font-size: 39px;
+    }
+    .opro-title {
+        font-size: 38px;
+    }
+    .opro-title {
+        font-size: 38px;
+    }
+    .bio-title {
+        font-size: 28px;
+    }
+    .info-list {
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+@media(max-width:1000px ){
+    .wg-link {
+        padding: 17px 50px;
+    }
+    .welcome-images {
+        display: none;
+    }
+    .PP {
+        padding: 69px 156px 0 0;
+    }
+    .w-text {
+        font-size: 17px;
+        width: 66%;
+    }
+    .wg-img{
+        width: 75%;
+    }
+    .menu-1 {
+        gap: 145px;
+    }
+    .card-img{
+        display: none;
+    }
+    .card-img-1{
+        display: none;
+    }
+    .card-img-2{
+        display: none;
+    }
+}
+@media(max-width:860px ){
+    .contacts-img{
+        display: none;
+    }
+    .menu-1 {
+        gap: 95px;
+    }
+    .wg-img {
+        width: 65%;
+    }
+    .wg-text {
+        font-size: 12px;
+    }
+    .wg-title {
+        font-size: 25px;
+    }
+    .info-list {
+        grid-template-columns: repeat(1,1fr);
+    }
+    .op-list {
+        grid-template-columns: repeat(2,1fr);
+    }
+    .opro-content {
+        display: block;
+    }
+    .blog-title-img{
+        display: none;
+    }
+    .clients {
+        padding: 39.703px 9.5px 15px 10px;
+    }
+    .footer-menu {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 45px;
+    }
+    .wg-link {
+        padding: 12px 30px;
+    }
+    .header-btn {
+        font-size: 20px;
+        padding: 14px 38px 14px 38px;
+    }
+    .form {
+        grid-template-columns: repeat(1,1fr);
+    }
+    .menu-contacts {
+        gap: 45px;
+    }
+    .wg-img-top{
+        width: 36%;
+    }
+}
+@media(max-width:670px ){
+    .opion-title {
+        padding: 0px;
+    }
+    .phone-text {
+        font-size: 14px;
+    }
+    .menu-contacts {
+        gap: 0px;
+    }
+    .wg-link {
+        padding: 12px 12px;
+    }
+    .wgroup {
+        gap: 5px;
+    }
+    .wg-title {
+        font-size: 18px;
+    }
+    .wg-link {
+        font-size: 18px;
+    }
+}
+@media(max-width:530px ){
+    .PP {
+        padding: 0;
+        padding-top: 40px;
+    }
+    .welcome-mini-img {
+        flex-direction: column-reverse;
+    }
+    .menu-1 {
+        gap: 35px;
+    }
+    .welcome-lawyer {
+        font-size: 36px;
+    }
+    .welcome-to {
+        font-size: 38px;
+    }
+    .partners-title {
+        gap: 5px;
+    }
+    .wgroup {
+        gap: 0px;
+    }
+    .fight-h1 {
+        font-size: 35px;
+    }
+    .part-title-text {
+        font-size: 32px;
+        text-align: center;
+    }
+    .form__btn {
+        font-size: 23px;
+        padding: 22px 7px;
+    }
+    .opion-inner {
+        padding: 25px;
+    }
+    .op-inner-text {
+        font-size: 16px;
+    }
+    .bio-title {
+        font-size: 14px;
+    }
+    .menu-1 {
+        gap: 15px;
+    }
+    .phone-text {
+        padding: 0;
+        font-size: 12px;
+    }
+    .topmenu {
+        font-size: 20px;
+    }
+    .wg-link {
+        font-size: 12px;
+    }
+    .wg-img {
+        width: 55%;
+    }
+    .wg-text {
+        padding-bottom: 18px;
+    }
+    .wg-img-top {
+        width: 25%;
+    }
+    .header-btn {
+        font-size: 16px;
+        padding: 14px 24px 14px 24px;
+    }
+    .wg-text {
+        font-size: 10px;
+    }
+
+    .form__input {
+        font-size: 20px;
+    }
+    .blog-top-texts-title {
+        font-size: 15px;
+    }
+    .footer-menu {
+        font-size: 19px;
+    }
+    .footer-menu-list {
+        font-size: 11px;
+    }
+    .submenu-contact {
+        font-size: 11px;
+    }
+    .wg-link {
+        color: #D1B06B;
+        border: none;
+        background: none;
+        padding: 0;
+        text-decoration: underline;
+    }
+    .blog-top-texts-center-title {
+        font-size: 26px;
+    }
+    .phone-cons-img{
+        padding-right: 5px;
+    }
+    .opro-callus {
+        color: #1F2732;
+        font-family: Outfit;
+        font-size: 14px;
+        font-weight: 400;
+    }
+    .opro-phone {
+        color: #1F2732;
+        font-family: Outfit;
+        font-size: 12px;
+        font-weight: 400;
+    }
+    .bio-copy {
+        font-size: 12px;
+    }
+    .op-title-text {
+        font-size: 25px;
+    }
+    .welcome-lawyer {
+        font-size: 26px;
+    }
+    .welcome-to {
+        font-size: 26px;
+    }
+    .explore-content-text {
+        font-size: 35px;
+    }
+}
+@media(max-width:375px ){
+    .contacts-container {
+        padding: 0 14px;
+        background: #1F2732;
+    }
+    .blog-top-texts-title {
+        font-size: 14px;
+    }
+    .pp-text {
+        font-size: 30px;
+    }
+    .wg-title {
+        font-size: 14px;
+    }
+    .wg-text {
+        padding: 0px;
+    }
+    .welcome-lawyer {
+        font-size: 23px;
+    }
+    .welcome-to {
+        font-size: 25px;
+    }
+    .content-images{
+        width: 285px;
+    }
+    .law-img{
+        width: 285px;
+    }
+    .opro-right-title {
+        font-size: 21px;
+    }
+    .phone-cons-img{
+        display: none;
+    }
+    .form__btn {
+        font-size: 19px;
+    }
+    .op-inner-text {
+        font-size: 15px;
+    }
+    .header-btn {
+        font-size: 11px;
+    }
+    .phone-text {
+        width: 80px;
+        font-size: 9px;
+    }
+    .phone-text {
+        padding: 0;
+    }
+    .topmenu {
+        font-size: 16px;
+    }
+}
+
+
+
